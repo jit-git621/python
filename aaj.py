@@ -9,6 +9,7 @@
 #             print('yes')
 #     new.append(a)
 # print(new)
+
 # data='abcxfghpqrssd'
 # new=[]
 # a=''
