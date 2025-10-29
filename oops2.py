@@ -141,38 +141,38 @@
 # rahil.eting()
 
 
-class c1:
-    def __init__(self):
-        print("raju kutriya")
+# class c1:
+#     def __init__(self):
+#         print("raju kutriya")
 
-class c2(c1):
-    def __init__(self):
-        print("tere pass dusra plan he ")
-        super().__init__()
+# class c2(c1):
+#     def __init__(self):
+#         print("tere pass dusra plan he ")
+#         super().__init__()
 
-class c3(c2):
-    def __init__(self):
-        print("inko sone ka katora de to bhi bhik hi mange ge")
-        super().__init__()
-class c4(c3):
-    def __init__(self):
-        print("ghoda kaha he")
-        super().__init__()
-class c5(c4):
-    def __init__(self):
-        print("ghash kha raha he ")
-        super().__init__()
-class c6(c5):
-    def __init__(self):
-        print("ghash kaha he")
-        super().__init__()
-class c7(c6):
-    def __init__(self):
-        print("ghoda kha gaya na l***n k3")
-        super().__init__()
+# class c3(c2):
+#     def __init__(self):
+#         print("inko sone ka katora de to bhi bhik hi mange ge")
+#         super().__init__()
+# class c4(c3):
+#     def __init__(self):
+#         print("ghoda kaha he")
+#         super().__init__()
+# class c5(c4):
+#     def __init__(self):
+#         print("ghash kha raha he ")
+#         super().__init__()
+# class c6(c5):
+#     def __init__(self):
+#         print("ghash kaha he")
+#         super().__init__()
+# class c7(c6):
+#     def __init__(self):
+#         print("ghoda kha gaya na l***n k3")
+#         super().__init__()
     
 
-obj=c7()
+# obj=c7()
 
 
 
