@@ -25,21 +25,21 @@ class ims:
         self.price.append(p_price)
         self.amount.append(p_quantity*p_price)
         
-        self.data2=dict(zip(["price","quantity"],[p_price,p_quantity]))
+        self.data2=dict(zip(["quantity","price"],[p_quantity,p_price]))
         self.data3.append(self.data2)
         self.data=dict(zip(self.product_name,self.data3))
+
         
     def display(self):
         print(dict(self.data))
+        # price(self.data.get(self.product_name))
 
-    # def sale(self):
-    #     p_name1=input("enetr product name")
-    #     qty =int(input(f"enter the quantity of {p_name1}"))
-    #     if p_name1 in self.data:
-    #         self.data.update(self.product_name,self.quantity[0]-qty)
-
-
-
+    def sale(self):
+        p_name1=input("enetr product name")
+        qty =int(input(f"enter the quantity of {p_name1}"))
+        b=self.data.get(p_name1)
+        if p_name1 in self.data:
+            self.data.update({p_name1:self.quantity-qty})
 
 
 creature=ims()
@@ -50,9 +50,10 @@ while True:
     creature.buy (product,quantity,price)
     choice=input('''press Y to enter more itam
                  press N to exit:-  ''')
-    if choice !='y' or choice!='Y':
+    if choice =='N' or choice=='n':
         break
 creature.display()
-# creature.sale()
+creature.sale()
+
 
 
