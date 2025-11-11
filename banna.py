@@ -37,3 +37,15 @@
 # print(obj._accountNo)
 # obj1=bank()
 # obj.display()
+
+# '''getter and setter method '''
+# class c1:
+#     def __init__(self):
+#         self.__accountNo=int(input("Enter a account number : "))
+#         self.__balance=int(input("Enter a current account balance : "))
+#     def getter(self): # attributes ki values ko le ke aata hai
+#         print(self.__accountNo,self.__balance)
+#     def setter(self,b):  # value change karna attributes ki
+#         self.__balance+=b
+# obj=c1()
+
